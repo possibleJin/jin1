@@ -100,6 +100,23 @@ git内部是SHA1
 root commit   =>  commit (HEAD指针) =>  merge
                   hot_fix(HEAD)  => commit  =>  commit
 
+20.git remote -v 查看远程仓库别名
+注册git
+新建仓库，复制仓库地址
+git add .
+git commit -m "xxx"
+git status 
+git remote -v 
+git remote add origin 仓库名
+git push origin [分支名/master]
+输入用户名和密码，等待片刻即可完成上传
+
+21.克隆git clone [仓库地址]
+完整下载远程仓库；创建origin别名；初始化本地库
+邀请加入团队 => 仓库  => setting => Manage access  => invite a collaborator => 复制链接发送 => 对方同意并加入
+
+git pull = git fetch + merge
+
 
 
 
